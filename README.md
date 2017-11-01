@@ -1,5 +1,10 @@
 # Surfingkeys - Expand your browser with javascript and keyboard.
 
+> ⚠️⚠️⚠️
+> This is a of [this repo by Brook Hong](https://github.com/brookhong/Surfingkeys). You should
+> probably use the original package instead of this one
+> ⚠️⚠️⚠️
+
 Surfingkeys is another Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the VIM editor. But it's not for VIM users only, it's for anyone who just needs some more shortcuts to his own functions.
 
 Surfingkeys is created with all settings described in Javascript, so it's easy for anyone to map any keystrokes to his own defined Javascript function. For example,

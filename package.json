@@ -1,8 +1,8 @@
 {
-  "name": "surfingkeys",
+  "name": "none23-surfingkeys",
   "version": "0.9.10",
   "private": true,
-  "description": "Map your keys for web surfing, expand your browser with javascript and keyboard.",
+  "description": "Map your keys for web surfing, expand your browser with javascript and keyboard. Forked from https://github.com/brookhong/Surfingkeys",
   "main": "background.js",
   "dependencies": {
     "babel-preset-es2015": "^6.22.0",
@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brookhong/Surfingkeys.git"
+    "url": "git+https://github.com/none23/surfingkeys.git"
   },
-  "author": "brook hong",
+  "author": "none23",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brookhong/Surfingkeys/issues"
+    "url": "https://github.com/none23/surfingkeys/issues"
   },
-  "homepage": "https://github.com/brookhong/Surfingkeys#readme"
+  "homepage": "https://github.com/none23/surfingkeys#readme"
 }

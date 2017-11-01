@@ -1,38 +1,46 @@
 body {
     margin: 0px;
 }
-kbd {
+
+kbd,
+.kbd,
+#kbd {
     display: inline-block;
     padding: 3px 5px;
-    font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: Inconsolata, Terminus, "Ubuntu Mono", monospace;
+    font-size: 11px;
     line-height: 10px;
-    color: #555;
+    color: hsl(0, 0%, 80%);
     vertical-align: middle;
-    background-color: #fcfcfc;
-    border: solid 1px #ccc;
-    border-bottom-color: #bbb;
-    border-radius: 3px;
-    box-shadow: inset 0 -1px 0 #bbb;
+    background-color: hsl(0, 0%, 20%);
+    border: solid 1px hsl(0, 0%, 35%);
+    border-bottom-color: hsl(0, 0%, 10%);
+    border-radius: 2px;
 }
+
 .description {
     padding: 10px 10%;
-    border-bottom: 1px solid #777;
+    border-bottom: solid 1px hsl(0, 0%, 15%);
 }
-.description>div {
+
+.description > div {
     padding: 0px 20px;
-    border-left: 1px solid #e7e7e7;
+    border-left: 1px solid hsl(0, 0%, 35%);
     display: inline-block;
 }
+
 .annotation {
     padding-left: 12px;
 }
+
 .content {
     margin: 0px;
     padding: 0px 10%;
     height: 90vh; /* window.innerHeight * 0.88 */
     overflow: scroll;
-    background: #777;
+    background: hsl(0, 0%, 30%);
 }
-.content>div {
-    background: #fff !important;
+
+.content > div {
+    background: hsl(0, 0%, 20%) !important;
 }
